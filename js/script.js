@@ -24,4 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 900) {
+      pageNav.style.display = "block";
+      isOpen = true
+    }
+    else{
+      pageNav.style.display = "none";
+      isOpen = false
+    }
+  });
 });
