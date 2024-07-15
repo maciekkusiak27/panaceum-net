@@ -4,10 +4,11 @@ function renderContent(content) {
 
 const panaceumContent = `
 <section id="panaceum-page">
+
   <a href="https://www.facebook.com/share/MPUGVQ3jf5fNMTkd/">
     <img src="./assets/images/webp/koncert.webp" alt="koncert" style="width: 100%" loading="lazy">
   </a>
-  <a href="https://youtube.com/playlist?list=PLgn-GLCkY0hl8JgWX5Y2dMHGT805_4dzY&si=czeV4kOmq8SZUM2Y">
+  <a href="https://youtube.com/playlist?list=PLgn-GLCkY0hl8JgWX5Y2dMHGT805_4dzY&si=czeV4kOmq8SZUM2Y" >
     <img src="./assets/images/webp/cds/cerber.webp" alt="cerber" style="width: 45%" loading="lazy">
   </a>
   <a href="https://youtube.com/playlist?list=PLgn-GLCkY0hmlpXn73DzgqN_-10rf3f7W&si=AGCHI1j7weHUzYCT">
@@ -34,6 +35,7 @@ const panaceumContent = `
 
 const musicContent = `
 <section id="music-page">
+  <iframe src="https://open.spotify.com/embed/album/1JueFf0ldQkV8jomXD32ey?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <iframe src="https://open.spotify.com/embed/album/6VtQu3Dhkg43G4LBIx9aqF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <iframe src="https://open.spotify.com/embed/album/75DvTU9r4FlWVCRCkgaoUE?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <iframe src="https://open.spotify.com/embed/album/2hFOm064MBHbwzsW6FblOm?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -46,9 +48,12 @@ const musicContent = `
 const videoContent = `
 <section id="videos-page">
   <div class="recent-videos">
-    <iframe src="https://www.youtube.com/embed/mBjkdhyx3io?si=gXKuday5ddowfWJ-" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.youtube.com/embed/UPMPH_TvGbc?si=P_w40UNxBKMTuO-p" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
   </div>
   <div class="videos-list">
+  
+    <iframe src="https://www.youtube.com/embed/7GpiYCi67L0?si=b1bucxgidwznmLpM" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.youtube.com/embed/mBjkdhyx3io?si=gXKuday5ddowfWJ-" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/aTPvGGAAvZ0?si=HBgubjCwYGFvHBrX" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/Q8VTeM4prlc?si=sl4s237s1QOM_PI7" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/xLZNM9hm5CI?si=RKWud_RQcgR5_iye" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
@@ -86,7 +91,7 @@ const liveContent = `
   <p>
     Od zawsze uwielbiamy dzielić się swoją muzyką, a zagranie pierwszego koncertu było dla nas przez długi czas marzeniem. A potem okazało się, że jesteśmy w tym całkiem nieźli :)
   </p>
-  <strong style="color:orangered">Ta sekcja będzie rozwinięta, póki co zapraszamy 25.07.2024 do baru Chicago w Krakowie</strong>
+  <strong style="color:orangered">Ta sekcja będzie rozwinięta, póki co zapraszamy 25.07.2024 do Chicago Bar w Krakowie</strong>
 </section>
 `;
 
@@ -97,7 +102,6 @@ const societyContent = `
   <p>Facebook: <a href="https://facebook.com/panaceumofficial" target="_blank">facebook.com/panaceumofficial</a></p>
   <p>Instagram: <a href="https://instagram.com/panaceumofficial" target="_blank">instagram.com/panaceumofficial</a></p>
   <p>TikTok: <a href="https://tiktok.com/@panaceum_32400" target="_blank">tiktok.com/@panaceum_32400</a></p>
-  <p>To żaden fanpage, dołącz i wpadnij czasem pogadać</p>
   <h4>Biznesy</h4>
   <p>Email: <strong>panaceumofficial@gmail.com</strong></p>
 </section>`;
@@ -112,13 +116,11 @@ function navigateTo(view) {
     home: homeContent,
   };
 
-  // Usuń klasę "active" z poprzedniego aktywnego elementu
   const activeElement = document.querySelector(".page--nav li.active");
   if (activeElement) {
     activeElement.classList.remove("active");
   }
 
-  // Ustaw klasę "active" dla aktualnego elementu
   const currentElement = document.querySelector(
     `[data-navigate="${view}"]`
   ).parentNode;
