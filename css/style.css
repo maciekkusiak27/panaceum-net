@@ -95,7 +95,7 @@ main > aside {
 }
 
 main > #app {
-  margin-top: 100px;
+  margin-top: 96px;
   flex-grow: 3;
 }
 
@@ -166,6 +166,11 @@ section {
   footer{
     display: none;
   }
+
+  main > #app {
+    margin-top: 32px;
+  }
+  
 
 
   .cookie-consent-banner {
