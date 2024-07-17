@@ -17,6 +17,9 @@ const panaceumContent = `
   <a href="https://youtube.com/playlist?list=OLAK5uy_lYCTgS5opF_poplANBC9upvSmj-oEsXY0&si=z0TS3UIidmZx3uYt">
     <img src="./assets/images/webp/cds/spacerynoca.webp" alt="spacerynoca" style="width: 45%" loading="lazy">
   </a>
+  <a href="https://www.youtube.com/watch?v=w51cm40474M&t=7s">
+    <img src="./assets/images/webp/cds/sprawdztenmixtape.webp" alt="sprawdztenmixtape" style="width: 45%" loading="lazy">
+  </a>
   <a href="https://youtube.com/playlist?list=PLgn-GLCkY0hniVNbe3Fp0jZLFku9QYYf6&si=FMVVrAXtwBHqUjtO">
     <img src="./assets/images/webp/cds/latoep.webp" alt="latoep" style="width: 45%" loading="lazy">
   </a>
