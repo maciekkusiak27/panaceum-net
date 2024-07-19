@@ -3,7 +3,7 @@ function renderContent(content) {
 }
 
 const panaceumContent = `
-<section id="panaceum-page">
+<section id="panaceum-page" >
 
   <a href="https://www.facebook.com/share/MPUGVQ3jf5fNMTkd/">
     <img src="./assets/images/webp/koncert.webp" alt="koncert" style="width: 100%" loading="lazy">
@@ -35,9 +35,8 @@ const panaceumContent = `
 </section>
 `;
 
-
 const musicContent = `
-<section id="music-page">
+<section id="music-page" >
   <iframe src="https://open.spotify.com/embed/album/1JueFf0ldQkV8jomXD32ey?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <iframe src="https://open.spotify.com/embed/album/6VtQu3Dhkg43G4LBIx9aqF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <iframe src="https://open.spotify.com/embed/album/75DvTU9r4FlWVCRCkgaoUE?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -47,14 +46,14 @@ const musicContent = `
 </section>
 `;
 
-
 const videoContent = `
 <section id="videos-page">
   <div class="recent-videos">
-    <iframe src="https://www.youtube.com/embed/UPMPH_TvGbc?si=P_w40UNxBKMTuO-p" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.youtube.com/embed/R-R5zTZVSlQ?si=FSXGX3c5BDQPcWSF" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
   </div>
   <div class="videos-list">
   
+    <iframe src="https://www.youtube.com/embed/UPMPH_TvGbc?si=P_w40UNxBKMTuO-p" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/7GpiYCi67L0?si=b1bucxgidwznmLpM" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/mBjkdhyx3io?si=gXKuday5ddowfWJ-" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
     <iframe src="https://www.youtube.com/embed/aTPvGGAAvZ0?si=HBgubjCwYGFvHBrX" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
@@ -76,7 +75,6 @@ const videoContent = `
   </div>
 </section>
 `;
-
 
 const homeContent = `
 <section id="home-page">
@@ -101,11 +99,9 @@ const liveContent = `
 const societyContent = `
 <section id="society-page" style="text-align:right">
   <h2>Społeczność Panaceum</h2>
-  <h4>Nasze linki (albo kliknij powyżej)</h4>
   <p>Facebook: <a href="https://facebook.com/panaceumofficial" target="_blank">facebook.com/panaceumofficial</a></p>
   <p>Instagram: <a href="https://instagram.com/panaceumofficial" target="_blank">instagram.com/panaceumofficial</a></p>
   <p>TikTok: <a href="https://tiktok.com/@panaceum_32400" target="_blank">tiktok.com/@panaceum_32400</a></p>
-  <h4>Biznesy</h4>
   <p>Email: <strong>panaceumofficial@gmail.com</strong></p>
 </section>`;
 
