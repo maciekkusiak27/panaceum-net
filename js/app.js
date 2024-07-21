@@ -3,7 +3,7 @@ function renderContent(content) {
 }
 
 const panaceumContent = `
-<section id="panaceum-page" >
+<section id="panaceum-page">
 
   <a href="https://www.facebook.com/share/MPUGVQ3jf5fNMTkd/">
     <img src="./assets/images/webp/koncert.webp" alt="koncert" style="width: 100%" loading="lazy">
@@ -35,47 +35,6 @@ const panaceumContent = `
 </section>
 `;
 
-const musicContent = `
-<section id="music-page" >
-  <iframe src="https://open.spotify.com/embed/album/1JueFf0ldQkV8jomXD32ey?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <iframe src="https://open.spotify.com/embed/album/6VtQu3Dhkg43G4LBIx9aqF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <iframe src="https://open.spotify.com/embed/album/75DvTU9r4FlWVCRCkgaoUE?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <iframe src="https://open.spotify.com/embed/album/2hFOm064MBHbwzsW6FblOm?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <iframe src="https://open.spotify.com/embed/album/2vpV9LpLbXeiv3R8Dc5Z3b?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <iframe src="https://open.spotify.com/embed/album/2jd8rOqwKGVmLsPSnuf5lo?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</section>
-`;
-
-const videoContent = `
-<section id="videos-page">
-  <div class="recent-videos">
-    <iframe src="https://www.youtube.com/embed/R-R5zTZVSlQ?si=FSXGX3c5BDQPcWSF" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-  <div class="videos-list">
-  
-    <iframe src="https://www.youtube.com/embed/UPMPH_TvGbc?si=P_w40UNxBKMTuO-p" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/7GpiYCi67L0?si=b1bucxgidwznmLpM" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/mBjkdhyx3io?si=gXKuday5ddowfWJ-" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/aTPvGGAAvZ0?si=HBgubjCwYGFvHBrX" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/Q8VTeM4prlc?si=sl4s237s1QOM_PI7" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/xLZNM9hm5CI?si=RKWud_RQcgR5_iye" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/f7P0KI6fhdA?si=C65lh34VamibJAGi" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/LGK3jEwjR4s?si=dbO1-WuZuptHoOBX" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/5mKc0Pte3Q0?si=vE3ylUkT_YHi5VAr" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/Z1DiiT0WrWA?si=JaS2HyOv_Gw1r1RC" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/3dU7lI46qWY?si=JBiENfNg0zDJkdx2" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/qsofVVozzfo?si=aeG1L9fsCXfHCkR4" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/wIkidzxHGxk?si=3hh23RrHCu7-brHD" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/k4FhCJx7dD8?si=gcBxyNTs6GckIfoC" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/0G-LPtIa8R0?si=wn6nweJcM8xdxMUg" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/tVrRdWtIVfI?si=qDChtEJRkozv18u5" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/8rf8KhWbAD8?si=Z2xh_2phsyNRzm4k" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/hUNL2G49Z9Q?si=VNF-0EFC4DPcuriW" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-    <iframe src="https://www.youtube.com/embed/2RBqTnkK4wY?si=GiOtbZp4Ruz4j2mq" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-</section>
-`;
-
 const homeContent = `
 <section id="home-page">
 <img src="./assets/images/webp/zdj2.webp" alt="zdj-start" class="content_photo"/>
@@ -99,20 +58,100 @@ const liveContent = `
 const societyContent = `
 <section id="society-page" style="text-align:right">
   <h2>Społeczność Panaceum</h2>
+  <h4>Nasze linki (albo kliknij powyżej)</h4>
   <p>Facebook: <a href="https://facebook.com/panaceumofficial" target="_blank">facebook.com/panaceumofficial</a></p>
   <p>Instagram: <a href="https://instagram.com/panaceumofficial" target="_blank">instagram.com/panaceumofficial</a></p>
   <p>TikTok: <a href="https://tiktok.com/@panaceum_32400" target="_blank">tiktok.com/@panaceum_32400</a></p>
+  <h4>Biznesy</h4>
   <p>Email: <strong>panaceumofficial@gmail.com</strong></p>
 </section>`;
+
+async function fetchVideoContent() {
+  const githubUrl = 'https://raw.githubusercontent.com/maciekkusiak27/pm-web-content/main/videos.json';
+  const localUrl = './assets/data/videos.json';
+
+  async function fetchJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  }
+
+  function createVideoContent(videoData) {
+    let recentVideo = `<iframe src="${videoData.recentVideo}" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>`;
+    let videoList = videoData.videoList.map(url => `
+      <iframe src="${url}" title="YouTube video player" allowfullscreen="" loading="lazy"></iframe>
+    `).join('');
+
+    return `
+      <section id="videos-page">
+        <div class="recent-videos">${recentVideo}</div>
+        <div class="videos-list">${videoList}</div>
+      </section>
+    `;
+  }
+
+  try {
+    const videoData = await fetchJson(githubUrl);
+    return createVideoContent(videoData);
+  } catch (error) {
+    console.warn('Failed to fetch from GitHub, trying local:', error);
+    try {
+      const videoData = await fetchJson(localUrl);
+      return createVideoContent(videoData);
+    } catch (localError) {
+      console.error('Failed to fetch local video content:', localError);
+      return `<section id="videos-page"><p>Error loading videos. Please try again later.</p></section>`;
+    }
+  }
+}
+
+async function fetchMusicContent() {
+  const githubUrl = 'https://raw.githubusercontent.com/maciekkusiak27/pm-web-content/main/music.json';
+  const localUrl = './assets/data/music.json';
+
+  async function fetchJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  }
+
+  function createMusicContent(musicData) {
+    let tracks = musicData.tracks.map(url => `
+      <iframe src="${url}" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    `).join('');
+
+    return `
+      <section id="music-page">
+        ${tracks}
+      </section>
+    `;
+  }
+
+  try {
+    const musicData = await fetchJson(githubUrl);
+    return createMusicContent(musicData);
+  } catch (error) {
+    console.warn('Failed to fetch from GitHub, trying local:', error);
+    try {
+      const musicData = await fetchJson(localUrl);
+      return createMusicContent(musicData);
+    } catch (localError) {
+      console.error('Failed to fetch local music content:', localError);
+      return `<section id="music-page"><p>Error loading music. Please try again later.</p></section>`;
+    }
+  }
+}
 
 function navigateTo(view) {
   const contentMap = {
     panaceum: panaceumContent,
-    music: musicContent,
-    videos: videoContent,
+    home: homeContent,
     live: liveContent,
     society: societyContent,
-    home: homeContent,
   };
 
   const activeElement = document.querySelector(".page--nav li.active");
@@ -125,7 +164,17 @@ function navigateTo(view) {
   ).parentNode;
   currentElement.classList.add("active");
 
-  renderContent(contentMap[view]);
+  if (view === 'videos') {
+    fetchVideoContent().then(content => {
+      renderContent(content);
+    });
+  } else if (view === 'music') {
+    fetchMusicContent().then(content => {
+      renderContent(content);
+    });
+  } else {
+    renderContent(contentMap[view]);
+  }
 
   let homeLink = document.getElementById("homeLink");
   homeLink.style.display = view === "home" ? "none" : "inline";
